@@ -174,7 +174,7 @@ a {
 }
 .service__desc {
   width: 468px;
-  margin: 0 auto;
+  margin: 18px auto 0;
 }
 .service__row {
   display: flex;
@@ -200,9 +200,9 @@ a {
   position: relative;
   box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.05);
 }
-.service-item:hover .service-item__icon{
+.service-item:hover .service-item__icon {
   color: #fff;
-  background: #2E80CE;
+  background: #2e80ce;
 }
 .service-item__icon {
   width: 60px;
@@ -217,18 +217,104 @@ a {
   margin-right: 19px;
   transition: 0.25s;
 }
-.service-item-heading{
-  color: #10375C;
-font-size: 1.8rem;
-font-weight: 600;
+.service-item-heading {
+  color: #10375c;
+  font-size: 1.8rem;
+  font-weight: 600;
 }
-.service-item__desc{
+.service-item__desc {
   margin-top: 8px;
-  color: #575F66;
-font-size: 1.6rem;
-font-weight: 300;
-line-height: 1.75;
+  color: #575f66;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.75;
 }
-.service--btn{
+.service--btn {
   margin-top: 55px;
+}
+/* ===========work=========== */
+.work {
+  background: #f6fbff;
+  padding: 100px 0;
+}
+.work__desc {
+  width: 468px;
+}
+.work__list {
+  margin-top: 86px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+}
+.work-item {
+  padding: 43px;
+  border-radius: 4px;
+  background: #fff;
+  border: 16px solid #eaf6ff;
+  transition: 0.25s;
+}
+.work-item:hover {
+  border-color: #2e80ce;
+  transform: translateY(-16px);
+}
+.work-item__heading {
+  color: #10375c;
+  font-size: 2.6rem;
+  font-weight: 600;
+  line-height: 1.38;
+}
+.work-item__desc {
+  color: #575f66;
+  margin-top: 28px;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.75;
+}
+.work-item__more {
+  color: #2e80ce;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.75;
+  margin-top: 18px;
+  display: inline-block;
+}
+/* ===========about=========== */
+.about {
+  padding: 85px 0 206px;
+  margin-top: 85px;
+}
+.about-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about__media {
+  width: 49%;
+}
+.about-content {
+  width: 40%;
+}
+.about__img--big {
+  display: flex;
+  width: 512px;
+  height: 370px;
+  border-radius: 6px;
+  box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.07);
+  object-fit: cover;
+}
+.about__img--small {
+  position: absolute;
+  top: 121px;
+  left: 238px;
+  width: 332px;
+  height: 370px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+.about__img {
+  position: relative;
+}
+.about-content__btn{
+  margin-top: 38px;
 }
